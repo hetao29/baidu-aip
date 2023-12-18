@@ -58,6 +58,9 @@ class AipBase {
      * @var array
      */
     protected $scope = 'brain_all_scope';
+    protected $isCloudUser =false;
+    protected $version="";
+    protected $proxies=array();
 
     /**
      * @param string $appId

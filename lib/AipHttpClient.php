@@ -20,6 +20,10 @@
  */
 class AipHttpClient{
 
+	var $headers=array();
+	var $connectTimeout =0;
+	var $socketTimeout=0;
+	var $conf=array();
     /**
      * HttpClient
      * @param array $headers HTTP header
