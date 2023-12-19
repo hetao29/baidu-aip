@@ -59,6 +59,7 @@ class AipBase {
      */
     protected $scope = 'brain_all_scope';
     protected $isCloudUser =false;
+    protected $client=null;
     protected $version="";
     protected $proxies=array();
 
